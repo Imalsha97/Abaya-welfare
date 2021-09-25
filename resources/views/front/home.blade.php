@@ -8,13 +8,13 @@
 	<meta name="author" content="">
 	<title>ABHAYA WELFARE </title>
 	<link rel = "icon" href="assets/img/logo.jpg" type="image/x-icon">
-	
+
 	<!-- Styles -->
 	<link rel='stylesheet' href='assets/css/bootstrap.min.css'>
 	<link rel='stylesheet' href='assets/css/animate.min.css'>
 	<link rel='stylesheet' href="assets/css/font-awesome.min.css"/>
 	<link rel='stylesheet' href="assets/css/style.css"/>
-	
+
 	<!-- Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
 
@@ -23,7 +23,7 @@
 		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 	<![endif]-->
-			
+
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="#">
 </head>
@@ -31,7 +31,7 @@
 
 <body>
 <!-- Begin Hero Bg -->
-<div id="parallax" style="background-image: url('assets/img/bnr1.jpg'); height: 100%;">
+<div id="parallax" style="background-image: url('assets/img/nelum3.jpg'); height: 100%;">
 </div>
 <!-- End Hero Bg
 	================================================== -->
@@ -50,7 +50,7 @@
 		<span class="icon-bar"></span>
 		</button>
 		<!-- Your Logo -->
-		
+
 		<div style="float: left; width: 50px; height: 50px; margin-top: 15px; margin-right: 20px;">
 			<img src="assets/img/logo.jpg" alt="" width="100%">
 		</div>
@@ -76,33 +76,27 @@
 <!-- Intro / Home
 	================================================================================================ -->
 
-<section id="hero" class="section" >
-	<div class="container">
-		<div class="row">
-			<div class="col-md-5">
-				<div class="herotext" style="width: 500px;">
-					<h2 class="adjust-line-height" class="wow bounceInDown" data-wow-duration="1s" data-wow-delay="0.1s" style="color: #fff; ">ABHAYA WELFARE FOUNDATION</span><br> 無畏施福利基金會 <br> 아바야 복지 재단 <br> Abhaya Sozialhilfe Verein <br>
-					</h2>
-					<br>
-					<p class="lead wow zoomIn" data-wow-duration="2s" data-wow-delay="0.5s" style="color: #fff;">
-						When we give cheerfully and accept gratefully, everyone is blessed.
-					</p>
-					<br>
-					<p>
-						<a href="#gallery" class="btn btn-default btn-lg wow fadeInLeft" role="button" style="font-weight: bold;"> View Gallery </a> &nbsp; 
-						<button onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLScahznYicJo1smkHoxR3-vx7z7-o5a7yADmy5yP23KUxONo1Q/viewform?usp=sf_link'" type="button" class="btn btn-default btn-lg wow fadeInLeft" style="font-weight: bold;">
-							DONATE NOW</button>
-
-						<!--<a href="#donate" class="btn btn-default btn-lg wow fadeInRight" role="button">Donate</a>
-						-->
+    <section id="hero" class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="herotext">
+						<h1 class="wow bounceInDown" data-wow-duration="1s" data-wow-delay="0.1s">Abhaya Welfare Foundation</h1>
+						<h4>無畏施福利基金會 <br> 아바야 복지 재단 <br> Abhaya Sozialhilfe Verein <br></h4>
+						<p class="lead wow zoomIn" data-wow-duration="2s" data-wow-delay="0.5s">
+							When we give cheerfully and accept gratefully, everyone is blessed.
 						</p>
+						<p>
+							<a href="#gallery" class="btn btn-default btn-lg wow fadeInLeft" role="button"> View Gallery </a> &nbsp; <a href="#donate" class="btn btn-default btn-lg wow fadeInRight" role="button">Donate</a>
+
+						</p>
+					</div>
+				</div>
+				<div class="col-md-7">
 				</div>
 			</div>
-			<div class="col-md-7">
-			</div>
 		</div>
-	</div>
-	</section>
+		</section>
 
 
 
@@ -110,140 +104,159 @@
 
 
 
-<!-- About 
+<!-- About
 	========================================================================================================== -->
 
 
-<section id="about" class="parallax section" > <!--style="background-image: url(logo.jpg);-->
-<div class="wrapsection">
-	<div class="parallax-overlay" style="background-color: rgba(218,165,32);opacity:0.9;"></div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<!-- Title -->
-				<div class="maintitle">
-					
-					<h3 class="section-title"><strong>ABHAYA WELFARE FOUNDATION</span></strong></h3>
-					<p class="lead"> 
-						The word Abhaya means in Pali to give life, freedom, free from fear, unshakable.<br>
-						Abhaya Welfare Foundation is a non-governmental organization which is dedicated relieve poverty educate poor students by providing scholarships and educational aids to poor students. It was started in 2002.
-					</p>
-				</div>
-			</div>
+	<section id="about" class="parallax section">
+		<!--style="background-image: url(logo.jpg);-->
+		<div class="wrapsection">
+			<div class="parallax-overlay" style="background-color: #01b0d1;opacity:0.9;"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<!-- Title -->
+						<div class="maintitle">
 
-			<div class="bankdetails" style="margin: 275px auto 100px auto; opacity:0.8; width: 700px;">
-				<h4 style="text-align: center;">Details</h4>
-					<p style="text-align: center; ">Abhaya Welfare Foundation <br><br></p>
-					<strong><p style="font-size: large;">
-						Registration number ：KO/KADO/SASE/107/06 <br>
-						Registration date &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ：2006/05/30 <br>
-						Registration office &nbsp;&nbsp;&nbsp;&nbsp; ：Kaduwela Divisional  Secretariatin Sri Lanka. <br>
-						Office address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ：No.722/130/1, Abhayapura，Aturugiriya, Sri Lanka. <br>
+							<h3 class="section-title"><strong>ABHAYA WELFARE FOUNDATION</span></strong></h3>
+							<p class="lead">
+								The word Abhaya means in Pali to give life, freedom, free from fear, unshakable.<br>
+								Abhaya Welfare Foundation is a non-governmental organization which is dedicated relieve
+								poverty educate poor students by providing scholarships and educational aids to poor
+								students. It was started in 2002.
+							</p>
+						</div>
+					</div>
 
-					</strong></p>
-			</div>
+					<div>
+						<div class="bankdetails" style="margin: auto; opacity:0.8; width:70%">
+							<h4 style="text-align: center;">Details</h4>
+							<p style="text-align: center; ">Abhaya Welfare Foundation </p>
+							<div class="my-auto py-auto">
+								<strong>
+									<p style="font-size: large;">
+										Registration number ：KO/KADO/SASE/107/06 <br>
+										Registration date &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ：2006/05/30 <br>
+										Registration office &nbsp;&nbsp;&nbsp;&nbsp; ：Kaduwela Divisional Secretariatin
+										Sri
+										Lanka. <br>
+										Office address
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										：No.722/130/1, Abhayapura，Aturugiriya, Sri Lanka. <br><br>
 
-			<div class="section-home home-reasons" style="margin-bottom: 100px;">
-				<div class="container">		
-					<div class="row">
-						<div class="col-md-6">
-							<div class="reasons-col animate-onscroll fadeIn" style="width: 500px; height: 450px;">
-								<img src="assets/img/vision.jpg" alt="">
-								<div class="reasons-titles">
-									<br>
-									<h3 class="reasons-title">Our Vision</h3>	
-								</div>
-		
-								<div class="on-hover hidden-xs">
-										<p style="text-align: center;">
-											Serving humanity and all beings without boundaries understanding the fragile nature of life.
-										</p>
-								</div>
+								</strong></p>
 							</div>
 						</div>
+					</div>
 
-						
-						<div class="col-md-6">
-							<div class="reasons-col animate-onscroll fadeIn" >
-								<img src="assets/img/mission.jpg" alt="" style="width: 560px; height: 450px;">
-								<div class="reasons-titles">
-									<br>
-									<h3 class="reasons-title">Our Mission</h3>
-									<!--<h5 class="reason-subtitle">We are humans</h5>-->
-									
+					<div class="section-home home-reasons" style="margin-bottom: 100px; margin-top: 100px;">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="reasons-col animate-onscroll fadeIn">
+										<img src="assets/img/vision.jpg" alt="" style="width:100%; height:1000%;">
+										<div class="reasons-titles">
+											<br>
+											<h3 class="reasons-title">Our Vision</h3>
+										</div>
+
+										<div class="on-hover hidden-xs">
+											<p style="text-align: center;">
+												Serving humanity and all beings without boundaries understanding the
+												fragile nature of life.
+											</p>
+										</div>
+									</div>
 								</div>
-		
-								<div class="on-hover hidden-xs">
-										<p style="text-align: center;">
-											Attempting to release the mankind and all sentient beings from sufferings with heart of compassion kindness and metta, <br>
-											Help underprivileged to alleviate poverty and malnutrition,<br>
-											Develop education opportunities for poor students in rural areas, 
-											Assisting to provide better healthcare services for all free of charge, and 
-											Building schools and preschools to provide equal opportunities for education. <br>
-										</p>
+
+
+								<div class="col-md-6">
+									<div class="reasons-col animate-onscroll fadeIn">
+										<img src="assets/img/mission.jpg" alt="" class="mx-auto"
+											style="width:100%; height:100%;">
+										<div class="reasons-titles">
+											<br>
+											<h3 class="reasons-title">Our Mission</h3>
+											<!--<h5 class="reason-subtitle">We are humans</h5>-->
+
+										</div>
+
+										<div class="on-hover hidden-xs">
+											<p style="text-align: center;">
+												Attempting to release the mankind and all sentient beings from
+												sufferings with heart of compassion kindness and metta, <br>
+												Help underprivileged to alleviate poverty and malnutrition,<br>
+												Develop education opportunities for poor students in rural areas,
+												Assisting to provide better healthcare services for all free of charge,
+												and
+												Building schools and preschools to provide equal opportunities for
+												education. <br>
+											</p>
+										</div>
+									</div>
+
 								</div>
+
 							</div>
-							
 						</div>
-
 					</div>
+
+
+
+					<!--Member committee-->
+
+					<div class="col-md-4 col-sm-6">
+						<div class="service-box wow flipInY" data-wow-duration="1.5s" data-wow-delay="0.2s">
+
+							<div class="bg-light mx-auto pb-4">
+								<img src="assets/img/president.jpg" alt=" " style="width: 170px; height: 200px;">
+							</div>
+							<h3>President</h3>
+							<p>
+								Rev Beragama Piyarathana Thero (LLB/Attorney at Law/ MA)<br>
+								<br><br>
+							</p>
+
+						</div>
+					</div>
+
+
+					<div class="col-md-4 col-sm-6">
+						<div class="service-box wow flipInY" data-wow-duration="1.5s" data-wow-delay="0.3s">
+
+							<div class="bg-light mx-auto pb-4">
+								<img src="assets/img/treasure.jpg" alt=" " style="width: 170px; height: 200px;">
+							</div>
+							<h3>Treasurer</h3>
+							<p>
+								Dr. Polgaswatte Paramananda Thero<br>
+								Deputy Editor <br>
+								Sinhala Dictionary Compilation Institute, <br>
+								Colombo-07, Sri Lanka.
+
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="service-box wow flipInY" data-wow-duration="1.5s" data-wow-delay="0.4s">
+
+							<div class="bg-light mx-auto pb-4">
+								<img src="assets/img/secretary.jpeg" alt=" " style="width: 200px; height: 200px;">
+							</div>
+							<h3>Secretary</h3>
+							<p>
+								Mr. W. S. Ranathunga
+								<br><br><br><br>
+							</p>
+
+							<!--<button type="button" class="btn btn-info btn-md"><a href="#">Learn More</a></button>-->
+						</div>
+					</div>
+
 				</div>
 			</div>
-
-			
-
-	<!--Member committee-->
-
-			<div class="col-md-4 col-sm-6">
-				<div class="service-box wow flipInY" data-wow-duration="1.5s" data-wow-delay="0.2s">
-			
-					<div class="image">
-						<img src="assets/img/president.jpg" alt=" " style="width: 170px; height: 200px;">
-					</div>
-					<h3>President</h3>
-					<p>
-						Rev Beragama Piyarathana Thero (LLB/Attorney at Law/ MA)<br><br><br>
-					</p>
-					
-				</div>
-			</div>
-
-
-			<div class="col-md-4 col-sm-6">
-				<div class="service-box wow flipInY" data-wow-duration="1.5s" data-wow-delay="0.3s">
-					
-					<div class="image">
-						<img src="assets/img/treasure.jpg" alt=" " style="width: 170px; height: 200px;">
-					</div>
-					<h3>Treasurer</h3>
-					<p>
-						Dr. Polgaswatte Paramananda Thero<br>
-						Deputy Editor<br>
-						Sinhala Dictionary Compilation Institute, <br>
-						Colombo-07, Sri Lanka.
-
-					</p>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<div class="service-box wow flipInY" data-wow-duration="1.5s" data-wow-delay="0.4s">
-					
-					<div class="image">
-						<img src="assets/img/secretary.jpeg" alt=" " style="width: 200px; height: 200px;">
-					</div>
-					<h3>Secretary</h3>
-					<p>
-						Mr. W. S. Ranathunga<br><br><br><br>
-					</p>
-					<!--<button type="button" class="btn btn-info btn-md"><a href="#">Learn More</a></button>-->
-				</div>
-			</div>
-
 		</div>
-	</div>
-</div>
-</section>
-
+	</section>
 
 
 
@@ -253,7 +266,7 @@
 	========================================================================================================= -->
 
 	<section class="parallax section" style="background-image: url(assets/img/dd.jpg);">
-	
+
 		<div class="wrapsection">
 			<div class="container">
 				<div class="row">
@@ -301,7 +314,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 
 </section>
 
@@ -312,10 +325,10 @@
 
 
 
-<!-- Services 
+<!-- Services
 ==============================================================================================================-->
 
-<!-- Services 
+<!-- Services
 ==============================================================================================================-->
 <section id="features">
 	<div class="container">
@@ -324,102 +337,102 @@
 		<div class="col-md-6 wow fadeInDown">
 			<div class="feature-box">
 			<div class="feature-left">
-				<i class="fa fa-graduation-cap" ></i> 
-			</div> 
+				<i class="fa fa-graduation-cap" ></i>
+			</div>
 			<div class="feature-right">
-			
+
 			<h4><p> Set up scholarships for poor children under the poverty line and give education materials for their education
 				<h6 style="font-size:smaller;color: rgb(43, 44, 44);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为贫困线以下贫困儿童设立奖学金，为他们的教育提供教材</h6>
 			</p></h4>
-			
-			
-			</div> 
-			</div> 
-			
+
+
+			</div>
+			</div>
+
 			<div class="feature-box">
 			<div class="feature-left">
-				<i class="fa fa-building" aria-hidden="true"></i>  
-			</div> 
+				<i class="fa fa-building" aria-hidden="true"></i>
+			</div>
 			<div class="feature-right">
-			
+
 			<h4><p> Building Preschools, Schools, Vocational Training Centers, and Educational Institutes  and  Help Monks receive Buddhist Education <h6 style="font-size:smaller;color: rgb(43, 44, 44);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;建设学前班、学校、职业培训中心和教育机构</h6></p></h4>
-			
-			</div> 
-			</div>  
-			
+
+			</div>
+			</div>
+
 			<div class="feature-box">
 			<div class="feature-left">
-				<i class="fa fa-cutlery"></i> 
-			</div> 
+				<i class="fa fa-cutlery"></i>
+			</div>
 			<div class="feature-right">
-			
+
 			<h4><p>Distribute nutritious food to patients and pregnant mothers and also held food donation programs
 				<h6 style="font-size:smaller;color: rgb(43, 44, 44);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;向患者和孕妇分发营养食品，并举办食品捐赠计划</h6> </p></h4>
-			</div> 
-			</div> 
-			
+			</div>
+			</div>
+
 			<div class="feature-box">
 				<div class="feature-left">
-				 <i class="fa fa-heartbeat"></i>   
-				</div> 
+				 <i class="fa fa-heartbeat"></i>
+				</div>
 				<div class="feature-right">
-				
+
 				<h4><p>Provide free psychological counseling and care services to rebuild physical and mental health
 					<h6 style="font-size:smaller;color: rgb(43, 44, 44);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;提供免费心理疏导护理服务，重建身心健康</h6>
 				</p></h4>
-				</div> 
-				</div>  
-			</div>  
+				</div>
+				</div>
+			</div>
 	<div class="col-md-6 wow fadeInDown">
 		<div class="feature-box">
 		<div class="feature-left">
-			<i class="fa fa-home"></i>  
-		</div> 
+			<i class="fa fa-home"></i>
+		</div>
 		<div class="feature-right">
-		
+
 		<h4><p> Build houses for the poor people and provide necessary services
 			<h6 style="font-size:smaller;color: rgb(43, 44, 44);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为贫困人口建房并提供必要的服务</h6>
 		</p></h4>
-		</div> 
-		</div>  
-		
+		</div>
+		</div>
+
 		<div class="feature-box">
 		<div class="feature-left">
-			<i class="fa fa-wheelchair" aria-hidden="true"></i>   
-		</div> 
+			<i class="fa fa-wheelchair" aria-hidden="true"></i>
+		</div>
 		<div class="feature-right">
-		
+
 		<h4><p>Build Hospice wards and hospitals Provide free medicine to those in need and the poor
 			<h6 style="font-size:smaller;color: rgb(43, 44, 44);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;建立临终关怀病房和医院 为有需要的人和穷人提供免费药品
 
 			</h6>
 		</p></h4>
-		</div> 
-		</div>  
-		
+		</div>
+		</div>
+
 		<div class="feature-box">
 		<div class="feature-left">
-		 <i class="fa fa-clock-o"></i>   
-		</div> 
+		 <i class="fa fa-clock-o"></i>
+		</div>
 		<div class="feature-right">
-		
+
 		<h4><p>Provide relief services in times of Landslides, Floods, Fire, Earthquakes Tsunamis or any other natural and man made disasters<h6 style="font-size:smaller;color: rgb(43, 44, 44);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为人为或自然灾害提供服务</h6></p></h4>
-		</div> 
-		</div> 
-		
+		</div>
+		</div>
+
 		<div class="feature-box">
 			<div class="feature-left">
 				<i class="fa fa-university"></i>
-			</div> 
+			</div>
 			<div class="feature-right">
-			
+
 			<h4><p> Renovating and Restoring Monasteries and helping in missionary work<h6 style="font-size:smaller;color: rgb(43, 44, 44);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修缮和修复寺院并协助传教工作</h6></p></h4>
-			</div> 
-			</div>  
-		</div>  
-	</div> 
-	</div>  
-	
+			</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 text-center wow fadeInLeft">
@@ -436,7 +449,7 @@
 			<div class="row">
 			<div class="col-md-6 text-justify  wow fadeInLeft">
 				<h3 style="color:rgb(43, 44, 44)">Our biggest dream</h3>
-				
+
 				<p class="txt"> We also hope to help patients who cannot afford necessary medicines and to distribute wheelchairs and crutches to people with disabilities, as well as reading glasses, myopia glasses and so on.
 				</p>
 				<p>Beyond building houses for the poor, Abhaya’s founder has a dream to build a cancer ward and also wants to donate dialysis machines for kidney patients. Beyond that, we would like to provide water purification units for remote areas.
@@ -445,11 +458,11 @@
 				<p>Please help us and continue to provide kind services.
 
 					If you want to donate, please contact us. Please indicate the donated items and items on the list.
-					
+
 					Cash donations are very convenient, if you are a foreigner you can send money from abroad by transfer.
-					
+
 					Gifts-in-kind can also be donated such as: wheelchairs, glasses, school bags, shoes, exercise books, books, clothes, etc.
-					
+
 					We will publish photos about the distribution of charitable itemsto the people immediately after the distribution.</p>
 
 			</div>
@@ -473,21 +486,21 @@
 				<p> 我們還有一個專案：幫助貧困孕婦，為孕產婦提供營養食品和補品。 此捐贈套餐需要斯里蘭卡盧比 7500 块或 45 美元。 該捐贈包包括多種用於照顧和幫助兒童和母親的物品。我們也希望能幫助那些買不起某種藥物的患者。我們也希望為殘障人士分發輪椅和拐杖，以及老花鏡、近視眼鏡等。</p>
 				<p class="txt">  除了為窮人建造房屋，Abhaya的創始人還有一個夢想：建造癌症病房，還想為腎病患者捐贈透析機。此外，我們願意為偏遠地區提供淨水裝置。
 
- 
+
 				</p>
-				
+
 				<p>請幫助我們並繼續提供友好的服務。
 
 					如果您想捐贈，請與我們聯繫。請在清单上注明所捐贈的项目和物品。
-				   
+
 					現金捐贈非常方便，如果您是外國人，您可以通過轉賬從國外匯款。
-				   
+
 					也可以捐贈實物，如：輪椅、眼鏡、書包、鞋子、練習本、書籍、衣服等。
-				   
+
 					我們將在分發後立即向人們發佈有關分發慈善物品的照片。</p>
 
 			</div></div>
-			
+
 		</div>
 	</div>
 	</section>
@@ -523,9 +536,9 @@
 								<img src="assets/img/fd.jpg" alt="" class="image-responsive">
 								<button class="btn btn-success" onclick="window.open('{{ route('portfolio','Food Donation') }}');">Read More</button>
 							</div>
-							
+
 							<div class="description">
-								<span class="caption"><b>Food Donation</b></span> 
+								<span class="caption"><b>Food Donation</b></span>
 								<div class="clearfix"></div>
 							</div>
 						</div>
@@ -535,9 +548,9 @@
 								<img src="assets/img/md.jpg" alt="" class="image-responsive">
 								<button class="btn btn-success" onclick="window.open('{{ route('portfolio','Medicine Donation') }}');">Read More</button>
 							</div>
-							
+
 							<div class="description">
-								<span class="caption"><b>Medicine Donation</b></span> 
+								<span class="caption"><b>Medicine Donation</b></span>
 								<div class="clearfix"></div>
 							</div>
 						</div>
@@ -547,9 +560,9 @@
 								<img src="assets/img/ed.jpg" alt="" class="image-responsive">
 								<button class="btn btn-success" onclick="window.open('{{ route('portfolio','Equipments Donation') }}');">Read More</button>
 							</div>
-							
+
 							<div class="description">
-								<span class="caption"><b>Equipments Donation</b></span> 
+								<span class="caption"><b>Equipments Donation</b></span>
 								<div class="clearfix"></div>
 							</div>
 						</div>
@@ -559,21 +572,21 @@
 								<img src="assets/img/coun.png" alt="" class="image-responsive">
 								<button class="btn btn-success" onclick="window.open('{{ route('portfolio','Counseling') }}');">Read More</button>
 							</div>
-							
+
 							<div class="description">
-								<span class="caption"><b>Counseling</b></span> 
+								<span class="caption"><b>Counseling</b></span>
 								<div class="clearfix"></div>
 							</div>
 						</div>
-						
+
 						<div class="col-md-4">
 							<div class="cnt">
 								<img src="assets/img/schol.jpg" alt="" class="image-responsive">
 								<button class="btn btn-success" onclick="window.open('{{ route('portfolio','Scholarships') }}');">Read More</button>
 							</div>
-						
+
 							<div class="description">
-								<span class="caption"><b>Scholarships</b></span> 
+								<span class="caption"><b>Scholarships</b></span>
 								<div class="clearfix"></div>
 							</div>
 						</div>
@@ -586,60 +599,105 @@
 
 
 
-<!-- Donate 
+<!-- Donate
 ==============================================================================================================-->
 
-<section id="donate" class="parallax section" style="background-image: url(http://themepush.com/demo/runcharity/assets/img/map.png);">
-	<div class="wrapsection">
-		<div class="parallax-overlay" style="background-color:rgba(218,165,32,0.8);opacity:0.95;"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="maintitle">
-						<h3 class="section-title">Donate</h3>
-						<p class="lead">
-							Please help us to help others to help themselves. Thank you for your good work and compassion.
-						</p>
+<section id="donate" class="parallax section"
+		style="background-image: url(http://themepush.com/demo/runcharity/assets/img/map.png);">
+		<div class="wrapsection">
+			<div class="parallax-overlay" style="background-color: #090528;opacity:0.95;"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 d-flex flex-column justify-content-around">
+						<div class="maintitle">
+							<h3 class="section-title">Donate</h3>
+							<p class="lead">
+								Please help us to help others to help themselves. Thank you for your good work and
+								compassion.
+							</p>
 
-						<div class="bankdetails" style="float: left;">
-							<h4 style="text-align: center;">Bank account details</h4>
+							<!--
+
+							<div class="bankdetails" style="width: 40%;">
+								<h4 style="text-align: center;">Bank account details</h4>
 								<p style="text-align: center;">Abhaya Welfare Foundation <br><br></p>
 								<strong>
-								Account number &nbsp; :&nbsp;  8003579561 <br>
-								Bank &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;：Commercial Bank Plc <br>
-								Bank code &emsp;&emsp;&emsp; : &nbsp;7056 <br>
-								Branch code &emsp;&emsp;    ：&nbsp; 130 <br>
-								Swift code  &emsp;&emsp;&emsp;   : &nbsp; CCEYLKLX <br> </strong>
-						</div>
+									Account number &nbsp; :&nbsp; 8003579561 <br>
+									Bank &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;：Commercial Bank Plc <br>
+									Bank code &emsp;&emsp;&emsp; : &nbsp;7056 <br>
+									Branch code &emsp;&emsp; ：&nbsp; 130 <br>
+									Swift code &emsp;&emsp;&emsp; : &nbsp; CCEYLKLX <br> </strong>
+							</div>
 
-						<div class="bankdetails" style="float: right;">
-							<h4 style="text-align: center;"> 銀行口座の詳細 </h4>
+							<div class="bankdetails" style="width: 40%;">
+								<h4 style="text-align: center;"> 銀行口座の詳細 </h4>
 								<p style="text-align: center;">Abhaya Welfare Foundation <br><br></p>
 								<strong>
-								帳號 &emsp;&emsp; : 8003579561 <br>
-								銀行 &emsp;&emsp; ：Commercial Bank Plc <br>
-								銀行代碼 &nbsp; : &nbsp;7056 <br>
-								分行代碼 &nbsp; ：&nbsp; 130 <br>
-								代碼  &emsp;&emsp;   : &nbsp; CCEYLKLX <br> </strong>
+									帳號 &emsp;&emsp; : 8003579561 <br>
+									銀行 &emsp;&emsp; ：Commercial Bank Plc <br>
+									銀行代碼 &nbsp; : &nbsp;7056 <br>
+									分行代碼 &nbsp; ：&nbsp; 130 <br>
+									代碼 &emsp;&emsp; : &nbsp; CCEYLKLX <br> </strong>
+							</div>
+
+							-->
+
+							<div class="row">
+								<div class="my-auto w-100 d-flex justify-content-center">
+
+									<div class="col-md-4 col-sm-6" style="margin:5%">
+										<div class="service-box">
+
+											<h4 style="text-align: center;">Bank account details</h4>
+											<p style="text-align: center;">Abhaya Welfare Foundation <br></p>
+											<strong>
+												Account number &nbsp; :&nbsp; 8003579561 <br>
+												Bank &emsp;：Commercial Bank Plc <br>
+												Bank code &emsp; : &nbsp;7056 <br>
+												Branch code &emsp; ：&nbsp; 130 <br>
+												Swift code &emsp; : &nbsp; CCEYLKLX <br>
+											</strong>
+										</div>
+									</div>
+
+									<div class="col-md-4 col-sm-6" style="margin:5%">
+										<div class="service-box">
+
+											<h4 style="text-align: center;"> 銀行口座の詳細 </h4>
+											<p style="text-align: center;">Abhaya Welfare Foundation <br></p>
+											<strong>
+												帳號  : 8003579561 <br>
+												銀行  ：Commercial Bank Plc <br>
+												銀行代碼  : 7056 <br>
+												分行代碼  ： 130 <br>
+												代碼  :  CCEYLKLX <br> </strong>
+										</div>
+									</div>
+								</div>
+
+							</div>
+                            <br><br>
+                            <div class="row justify-content-center">
+									<button onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLScahznYicJo1smkHoxR3-vx7z7-o5a7yADmy5yP23KUxONo1Q/viewform?usp=sf_link'" type="button" class="btn btn-default btn-lg wow fadeInLeft">
+										DONATE NOW</button> &emsp;&emsp;&emsp;&emsp;
+
+										<button onclick="location.href='#contactarea'" type="button" class="btn btn-default btn-lg wow fadeInLeft">
+												CONTACT US</button>
+
+								</div>
 						</div>
-
-						<p><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
-
-						<button onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLScahznYicJo1smkHoxR3-vx7z7-o5a7yADmy5yP23KUxONo1Q/viewform?usp=sf_link'" type="button" class="btn btn-default btn-lg wow fadeInLeft">
-						DONATE NOW</button> &emsp;&emsp;or&emsp;&emsp;
-
-						<button onclick="location.href='#contactarea'" type="button" class="btn btn-default btn-lg wow fadeInLeft">
-								CONTACT US</button>
-						
 
 					</div>
-					
-					
 				</div>
+
+				<p><br><br><br><br><br></p>
+
+
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
+
+
 
 
 
@@ -648,8 +706,8 @@
 <!-- Random (Quote about donation)
 	================================================================================================== -->
 
-	
-			
+
+
 
 
 
@@ -692,15 +750,15 @@
 								</div>
 							</fieldset>
 						</form>
-						<div id="success">		
+						<div id="success">
 							<p class="contactalert">
 								Your message was sent succssfully! I will be in touch as soon as I can.
-							</p>			
+							</p>
 						</div>
-						<div id="error">			
+						<div id="error">
 							<p class="contactalert">
 								 Something went wrong, try refreshing and submitting the form again.
-							</p>			
+							</p>
 						</div>
 					</div>
 				</div>
