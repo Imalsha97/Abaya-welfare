@@ -15,9 +15,13 @@ http://www.templatemo.com/tm-501-neaty
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">                                      <!-- Bootstrap style -->
     <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}">                                <!-- Magnific pop up style, http://dimsemenov.com/plugins/magnific-popup/ -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/templatemo-style.css') }}">  
-    <link rel='stylesheet' href="{{ asset('assets/css/font-awesome.min.css') }}">                                    <!-- Templatemo style -->
-
+    <link rel="stylesheet" href="{{ asset('assets/css/templatemo-style.css') }}">
+    <link rel='stylesheet' href="{{ asset('assets/css/font-awesome.min.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+                                      <!-- Templatemo style -->
+                                      <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
+                                      <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -25,18 +29,68 @@ http://www.templatemo.com/tm-501-neaty
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
           <![endif]-->
 </head>
-    <body>        
+    <body>
+    <div id="parallax" style="background-image: url({{ asset('assets/img/donate3.jpg') }});">
+
+
+</div>
+<!-- End Hero Bg
+	================================================== -->
+
+
+
+<!-- Start Header
+	================================================== -->
+<header id="header" class="navbar navbar-inverse navbar-fixed-top" role="banner">
+<div class="container">
+	<div class="navbar-header">
+		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+		<!-- Your Logo -->
+
+		<div style="float: left; width: 50px; height: 50px; margin-top: 15px; margin-right: 20px;">
+			<img src="{{ asset('assets/img1/logo.jpg') }}" alt="" width="100%">
+		</div>
+
+		<a href="#hero" class="navbar-brand">ABHAYA WELFARE FOUNDATION</span></a>
+	</div>
+	<!-- Start Navigation -->
+	<nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
+	<ul class="nav navbar-nav">
+		<li><a href="#hero">Home</a></li>
+		<li><a href="#about">About</a></li>
+		<li><a href="#features">Services</a></li>
+		<li><a href="#gallery">Gallery</a></li>
+		<li><a href="#donate">Donate</a></li>
+		<li><a href="#contactarea">Contact Us</a></li>
+	</ul>
+	</nav>
+</div>
+</header>
+
+
+
+<!-- Intro / Home
+	================================================================================================ -->
+
+
+
+
         <div class="container">
             <div class="row">
-                <div class="tm-left-right-container">
+                <!-- <div class="tm-left-right-container"> -->
                     <!-- Left column: logo and menu -->
-                    <div class="tm-blue-bg tm-left-column">                        
+                    <!-- <div class="tm-blue-bg tm-left-column">
                         <div class="tm-logo-div text-xs-center">
                             <h1 class="tm-site-name">Abhaya Welfare</h1>
                         </div>
                         <nav class="tm-main-nav">
                             <ul class="tm-main-nav-ul">
-                                
+
                                 <li class="tm-nav-item">
                                     <a href="{{ route('portfolio','Food Donation') }}" class="tm-nav-item-link">Food Donation</a>
                                 </li>
@@ -53,14 +107,16 @@ http://www.templatemo.com/tm-501-neaty
                                     <a href="{{ route('portfolio','Scholarships') }}" class="tm-nav-item-link">Scholarships</a>
                                 </li>
                             </ul>
-                        </nav>                                         
-                    </div> <!-- Left column: logo and menu -->
-                    
+                        </nav>
+                    </div> Left column: logo and menu -->
+
                     <!-- Right column: content -->
-                    <div class="tm-right-column">
-                        <figure>
-                            <img src="{{ asset('assets/img1/b2.jpg')}}" alt="Header image" class="img-fluid" style="height: 100%; width: 100%;">    
-                        </figure>
+
+                        <!-- <figure>
+                            <img src="{{ asset('assets/img/donate2.jpg')}}" alt="Header image"  class="img-responsive">
+                        </figure> -->
+
+
 
                         <div class="tm-content-div">
                             <!-- Welcome section -->
@@ -70,14 +126,14 @@ http://www.templatemo.com/tm-501-neaty
 
                                     @foreach($portfolio as $port)
                                     <div class="tm-img-container tm-img-container-1">
-                                        <a href="{{ asset('storage/'.$port->cover) }}"><img src="{{ asset('storage/'.$port->cover) }}" alt="Image" class="img-fluid tm-img-tn"></a>    
+                                        <a href="{{ asset('storage/'.$port->cover) }}"><img src="{{ asset('storage/'.$port->cover) }}" alt="Image" class="img-fluid tm-img-tn"></a>
                                     </div>
-                                    @endforeach                                 
+                                    @endforeach
                                 </div>
                             </section>
 
-                            
-                            
+
+    </div></div></div>
                             <!-- footer
 	=======================================================================================================  -->
 	<div class="footer-dark">
@@ -113,23 +169,17 @@ http://www.templatemo.com/tm-501-neaty
                 <p class="copyright">Abhaya Welfare © 2018</p>
             </div>
         </footer>
-    </div>
+</div
 
-                        </div>  
-                        
-                    </div> <!-- Right column: content -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->            
-        
+
 
 
         <!-- load JS files -->
         <script src="{{ asset('assets/js/jquery-1.11.3.min.js') }}"></script>             <!-- jQuery (https://jquery.com/download/) -->
         <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>     <!-- Magnific pop-up (http://dimsemenov.com/plugins/magnific-popup/) -->
         <script src="{{ asset('assets/js/jquery.singlePageNav.min.js') }}"></script>      <!-- Single Page Nav (https://github.com/ChrisWojcik/single-page-nav) -->
-        <script>     
-       
+        <script>
+
             $(document).ready(function(){
 
                 // Single page nav
@@ -144,24 +194,24 @@ http://www.templatemo.com/tm-501-neaty
                   type: 'image',
                   gallery: {enabled:true}
                   // other options
-                }); 
+                });
 
                 $('.tm-gallery-2').magnificPopup({
                   delegate: 'a', // child items selector, by clicking on it popup will open
                   type: 'image',
                   gallery: {enabled:true}
                   // other options
-                }); 
+                });
 
                 $('.tm-gallery-3').magnificPopup({
                   delegate: 'a', // child items selector, by clicking on it popup will open
                   type: 'image',
                   gallery: {enabled:true}
                   // other options
-                }); 
+                });
 
-                $('.tm-current-year').text(new Date().getFullYear());                
+                $('.tm-current-year').text(new Date().getFullYear());
             });
-        </script>             
+        </script>
 </body>
 </html>

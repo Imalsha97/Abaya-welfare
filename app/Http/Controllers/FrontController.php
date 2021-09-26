@@ -17,7 +17,7 @@ class FrontController extends Controller
     public function Portfolio($slug)
     {
         $slug = Pcategory::where('name',$slug)->firstOrFail();
-        $portfolio = Portfolio::where('pcategory_id', $slug->id)->orderBy('id','desc')->limit(6)->get();
+        $portfolio = Portfolio::where('pcategory_id', $slug->id)->orderBy('id','desc')->limit(12)->get();
 
         return view ('front.portfolio',compact('portfolio','slug'));
     }
