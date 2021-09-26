@@ -569,12 +569,12 @@
 
 						<div class="col-md-4">
 							<div class="cnt">
-								<img src="assets/img/coun.png" alt="" class="image-responsive">
+								<img src="assets/img/Counselling2.png" alt="" class="image-responsive">
 								<button class="btn btn-success" onclick="window.open('{{ route('portfolio','Counseling') }}');">Read More</button>
 							</div>
 
 							<div class="description">
-								<span class="caption"><b>Counseling</b></span>
+								<span class="caption"><b>Counseling and Care Service</b></span>
 								<div class="clearfix"></div>
 							</div>
 						</div>
@@ -586,7 +586,18 @@
 							</div>
 
 							<div class="description">
-								<span class="caption"><b>Scholarships</b></span>
+								<span class="caption"><b>Education and Scholarships</b></span>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+                        <div class="col-md-4">
+							<div class="cnt">
+								<img src="assets/img/pipe.jpg" alt="" class="image-responsive">
+								<button class="btn btn-success" onclick="window.open('{{ route('portfolio','PUMP') }}');">Read More</button>
+							</div>
+
+							<div class="description">
+								<span class="caption"><b>Infrastructure Service</b></span>
 								<div class="clearfix"></div>
 							</div>
 						</div>
@@ -643,12 +654,9 @@
 							-->
 
 							<div class="row">
-								<div class="my-auto w-100 d-flex justify-content-center">
-
-									<div class="col-md-4 col-sm-6" style="margin:5%">
-										<div class="service-box">
-
-											<h4 style="text-align: center;">Bank account details</h4>
+								<div class="col-sm-6">
+									<div class="service-box">
+										<h4 style="text-align: center;">Bank account details</h4>
 											<p style="text-align: center;">Abhaya Welfare Foundation <br></p>
 											<strong>
 												Account number &nbsp; :&nbsp; 8003579561 <br>
@@ -657,25 +665,24 @@
 												Branch code &emsp; ：&nbsp; 130 <br>
 												Swift code &emsp; : &nbsp; CCEYLKLX <br>
 											</strong>
-										</div>
-									</div>
-
-									<div class="col-md-4 col-sm-6" style="margin:5%">
-										<div class="service-box">
-
-											<h4 style="text-align: center;"> 銀行口座の詳細 </h4>
-											<p style="text-align: center;">Abhaya Welfare Foundation <br></p>
-											<strong>
-												帳號  : 8003579561 <br>
-												銀行  ：Commercial Bank Plc <br>
-												銀行代碼  : 7056 <br>
-												分行代碼  ： 130 <br>
-												代碼  :  CCEYLKLX <br> </strong>
-										</div>
 									</div>
 								</div>
+								<div class="col-sm-6">
+									<div class="service-box">
+										<h4 style="text-align: center;">Bank account details</h4>
+											<p style="text-align: center;">Abhaya Welfare Foundation <br></p>
+											<strong>
+												Account number &nbsp; :&nbsp; 8003579561 <br>
+												Bank &emsp;：Commercial Bank Plc <br>
+												Bank code &emsp; : &nbsp;7056 <br>
+												Branch code &emsp; ：&nbsp; 130 <br>
+												Swift code &emsp; : &nbsp; CCEYLKLX <br>
+											</strong>
+									</div>
+								</div>
+						</div>
 
-							</div>
+
                             <br><br>
                             <div class="row justify-content-center">
 									<button onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLScahznYicJo1smkHoxR3-vx7z7-o5a7yADmy5yP23KUxONo1Q/viewform?usp=sf_link'" type="button" class="btn btn-default btn-lg wow fadeInLeft">
@@ -730,20 +737,25 @@
 								<div class="row">
 									<div class="col-md-4 wow fadeIn animated animated" data-wow-delay="0.1s" data-wow-duration="2s">
 										<label for="name">Name<span class="required">*</span></label>
-										<input type="text" name="name" id="name" size="30" value="" required/>
+										<input type="text" class="form-control" name="name" id="name" size="30" value="" required/>
+									</div>
+                                    <div class="col-md-4 wow fadeIn animated" data-wow-delay="0.3s" data-wow-duration="2s">
+										<label for="number">Phone</label>
+										<input type="text" class="form-control" name="phone" id="number" size="30" value=""/>
 									</div>
 									<div class="col-md-4 wow fadeIn animated" data-wow-delay="0.3s" data-wow-duration="2s">
 										<label for="email">Email<span class="required">*</span></label>
-										<input type="text" name="email" id="email" size="30" value="" required/>
+										<input type="text" class="form-control" name="email" id="email" size="30" value="" required/>
 									</div>
-									<div class="col-md-4 wow fadeIn animated" data-wow-delay="0.3s" data-wow-duration="2s">
-										<label for="phone">Phone</label>
-										<input type="text" name="phone" id="phone" size="30" value=""/>
+
+                                    <div class="col-md-4 wow fadeIn animated" data-wow-delay="0.3s" data-wow-duration="2s">
+										<label for="subject">Subject</label>
+										<input type="text" class="form-control" name="subject" id="subject" size="30" value=""/>
 									</div>
 								</div>
 								<div class="wow fadeIn animated" data-wow-delay="0.3s" data-wow-duration="1.5" style="margin-top:15px;">
 									<label for="message">Message<span class="required">*</span></label>
-									<textarea name="message" id="message" required></textarea>
+									<textarea name="message" id="message" class="form-control" required></textarea>
 								</div>
 								<div class="wow fadeIn animated" data-wow-delay="0.3" data-wow-duration="1.5s">
 									<input id="submit" type="submit" name="submit" value="Send"/>
@@ -791,23 +803,23 @@
                     <div class="col-sm-6 col-md-3 item">
                         <h3>Contact us</h3>
                         <ul>
-                            <li>+94715670110 (Main Office)</li><br>
-                            <li>Abhaya Welfare</li><br>
-                            <li>No 67/25, Hanwella Road, Melwatta, Padukka, Sri Lanka</li>
+                            <li>+94714049053 (Main Office)</li><br>
+                            <li>sipnara@gmail.com</li><br>
+
+                            <li>Abhaya Welfare Foundation</li><br>
+                            <li>No: 722/130/1,Abhayapura，Aturugiriya, Sri Lanka</li>
                         </ul>
                     </div>
                     <div class="col-md-6 item text">
                         <h3>Abhaya Welfare</h3>
-                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                        <p>“The way you get meaning into your life is to devote yourself to loving others, devote yourself to your community around you, and devote yourself to creating something that gives you purpose and meaning.” - Mitch Albom -</p>
                     </div>
                     <section id="credits" class="text-center">
 						<span class="social wow zoomIn">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-skype"></i></a>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-						<a href="#"><i class="fa fa-pinterest"></i></a>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
+						<a href="https://www.facebook.com/Abhaya-Welfare-Foundation-2404201109591950/"><i class="fa fa-facebook"></i></a>
+
+
+						<a href="sipnara@gmail.com"><i class="fa fa-google-plus"></i></a>
 						</span>
 					</section>
                 </div>

@@ -30,7 +30,7 @@ http://www.templatemo.com/tm-501-neaty
           <![endif]-->
 </head>
     <body>
-    <div id="parallax" style="background-image: url({{ asset('assets/img/donate3.jpg') }});">
+    <div id="parallax" style="background-image: url({{ asset('assets/img/donate3x.png') }});">
 
 
 </div>
@@ -61,12 +61,12 @@ http://www.templatemo.com/tm-501-neaty
 	<!-- Start Navigation -->
 	<nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
 	<ul class="nav navbar-nav">
-		<li><a href="#hero">Home</a></li>
-		<li><a href="#about">About</a></li>
-		<li><a href="#features">Services</a></li>
-		<li><a href="#gallery">Gallery</a></li>
-		<li><a href="#donate">Donate</a></li>
-		<li><a href="#contactarea">Contact Us</a></li>
+		<li><a href="{{ route('homepage') }}">Home</a></li>
+		<li><a href="{{ route('homepage') }}/#about">About</a></li>
+		<li><a href="{{ route('homepage') }}/#features">Services</a></li>
+
+		<li><a href="{{ route('homepage') }}/#donate">Donate</a></li>
+		<li><a href="{{ route('homepage') }}/#contactarea">Contact Us</a></li>
 	</ul>
 	</nav>
 </div>
@@ -80,55 +80,20 @@ http://www.templatemo.com/tm-501-neaty
 
 
 
-        <div class="container">
+    <div class="container">
             <div class="row">
-                <!-- <div class="tm-left-right-container"> -->
-                    <!-- Left column: logo and menu -->
-                    <!-- <div class="tm-blue-bg tm-left-column">
-                        <div class="tm-logo-div text-xs-center">
-                            <h1 class="tm-site-name">Abhaya Welfare</h1>
-                        </div>
-                        <nav class="tm-main-nav">
-                            <ul class="tm-main-nav-ul">
-
-                                <li class="tm-nav-item">
-                                    <a href="{{ route('portfolio','Food Donation') }}" class="tm-nav-item-link">Food Donation</a>
-                                </li>
-                                <li class="tm-nav-item">
-                                    <a href="{{ route('portfolio','Medicine Donation') }}" class="tm-nav-item-link">Medicine Donations</a>
-                                </li>
-                                <li class="tm-nav-item">
-                                    <a href="{{ route('portfolio','Equipments Donation') }}" class="tm-nav-item-link">Equipments Donation</a>
-                                </li>
-                                <li class="tm-nav-item">
-                                    <a href="{{ route('portfolio','Counseling') }}" class="tm-nav-item-link">Counseling</a>
-                                </li>
-                                <li class="tm-nav-item">
-                                    <a href="{{ route('portfolio','Scholarships') }}" class="tm-nav-item-link">Scholarships</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div> Left column: logo and menu -->
-
-                    <!-- Right column: content -->
-
-                        <!-- <figure>
-                            <img src="{{ asset('assets/img/donate2.jpg')}}" alt="Header image"  class="img-responsive">
-                        </figure> -->
-
-
-
-                        <div class="tm-content-div">
-                            <!-- Welcome section -->
-                            <section id="all" class="tm-section">
-                                <header><h2 class="tm-blue-text tm-section-title tm-margin-b-30">{{ $slug->name }}</h2></header>
+                <div class="tm-content-div">
+                    <!-- Welcome section -->
+                        <section id="all" class="tm-section">
+                            <header>
+                                <h2 class="tm-blue-text tm-section-title tm-margin-b-30" style="padding: 30px">{{ $slug->name }}</h2></header>
                                 <div class="tm-gallery-container tm-gallery-1">
 
-                                    @foreach($portfolio as $port)
+                                 @foreach($portfolio as $port)
                                     <div class="tm-img-container tm-img-container-1">
-                                        <a href="{{ asset('storage/'.$port->cover) }}"><img src="{{ asset('storage/'.$port->cover) }}" alt="Image" class="img-fluid tm-img-tn"></a>
+                                        <a href="{{ asset('storage/'.$port->cover) }}"><img src="{{ asset('storage/'.$port->cover) }}" alt="Image" class="img-fluid tm-img-tn" style="width:350px;height:200px"></a>
                                     </div>
-                                    @endforeach
+                                @endforeach
                                 </div>
                             </section>
 
@@ -146,23 +111,23 @@ http://www.templatemo.com/tm-501-neaty
                     <div class="col-sm-6 col-md-3 item">
                         <h3>Contact us</h3>
                         <ul>
-                            <li>+94715670110 (Main Office)</li><br>
-                            <li>Abhaya Welfare</li><br>
-                            <li>No 67/25, Hanwella Road, Melwatta, Padukka, Sri Lanka</li>
+                            <li>+94714049053 (Main Office)</li><br>
+                            <li>sipnara@gmail.com</li><br>
+
+                            <li>Abhaya Welfare Foundation</li><br>
+                            <li>No: 722/130/1,Abhayapura，Aturugiriya, Sri Lanka</li>
                         </ul>
                     </div>
                     <div class="col-md-6 item text">
                         <h3>Abhaya Welfare</h3>
-                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                        <p>“The way you get meaning into your life is to devote yourself to loving others, devote yourself to your community around you, and devote yourself to creating something that gives you purpose and meaning.” - Mitch Albom -</p>
                     </div>
                     <section id="credits" class="text-center">
 						<span class="social wow zoomIn">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-skype"></i></a>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-						<a href="#"><i class="fa fa-pinterest"></i></a>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
+						<a href="https://www.facebook.com/Abhaya-Welfare-Foundation-2404201109591950/"><i class="fa fa-facebook"></i></a>
+
+
+						<a href="sipnara@gmail.com"><i class="fa fa-google-plus"></i></a>
 						</span>
 					</section>
                 </div>
