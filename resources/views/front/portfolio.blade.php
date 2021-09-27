@@ -64,7 +64,7 @@ http://www.templatemo.com/tm-501-neaty
 		<li><a href="{{ route('homepage') }}">Home</a></li>
 		<li><a href="{{ route('homepage') }}/#about">About</a></li>
 		<li><a href="{{ route('homepage') }}/#features">Services</a></li>
-
+        <li><a href="{{ route('homepage') }}/#gallery">Services</a></li>
 		<li><a href="{{ route('homepage') }}/#donate">Donate</a></li>
 		<li><a href="{{ route('homepage') }}/#contactarea">Contact Us</a></li>
 	</ul>
@@ -91,9 +91,9 @@ http://www.templatemo.com/tm-501-neaty
 
                                 @foreach($portfolio as $port)
 
-                                    <div class="col-md-4" style="padding-bottom: 20px">
+                                    <div class="col-md-3" style="padding-bottom: 20px">
                                         <div class="cnt">
-                                            <a href="{{ asset('storage/'.$port->cover) }}"><img src="{{ asset('storage/'.$port->cover) }}" alt="Image" class="image-responsive" style="width:350px;height:200px"></a>
+                                            <a href="{{ asset('storage/'.$port->cover) }}"><img src="{{ asset('storage/'.$port->cover) }}" alt="Image" class="image-responsive" style="width:300px;height:200px"></a>
                                         </div>
                                     </div>
 
