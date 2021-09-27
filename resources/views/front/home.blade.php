@@ -530,7 +530,7 @@
 					</div>
 					<div class="row">
 						<!-- Gallery item -->
-						<div class="col-md-4">
+						<div class="col-md-4" style="padding-bottom:20px">
 							<div class="cnt">
 
 								<img src="assets/img/fd.jpg" alt="" class="image-responsive">
@@ -543,7 +543,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-4">
+						<div class="col-md-4"style="padding-bottom:20px">
 							<div class="cnt">
 								<img src="assets/img/md.jpg" alt="" class="image-responsive">
 								<button class="btn btn-success" onclick="window.open('{{ route('portfolio','Medicine Donation') }}');">Read More</button>
@@ -555,7 +555,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-4">
+						<div class="col-md-4"style="padding-bottom:20px">
 							<div class="cnt">
 								<img src="assets/img/ed.jpg" alt="" class="image-responsive">
 								<button class="btn btn-success" onclick="window.open('{{ route('portfolio','Equipments Donation') }}');">Read More</button>
@@ -567,7 +567,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-4">
+						<div class="col-md-4"style="padding-bottom:20px">
 							<div class="cnt">
 								<img src="assets/img/Counselling2.png" alt="" class="image-responsive">
 								<button class="btn btn-success" onclick="window.open('{{ route('portfolio','Counseling') }}');">Read More</button>
@@ -579,7 +579,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-4">
+						<div class="col-md-4"style="padding-bottom:20px">
 							<div class="cnt">
 								<img src="assets/img/schol.jpg" alt="" class="image-responsive">
 								<button class="btn btn-success" onclick="window.open('{{ route('portfolio','Scholarships') }}');">Read More</button>
@@ -590,7 +590,7 @@
 								<div class="clearfix"></div>
 							</div>
 						</div>
-                        <div class="col-md-4">
+                        <div class="col-md-4"style="padding-bottom:20px">
 							<div class="cnt">
 								<img src="assets/img/pipe.jpg" alt="" class="image-responsive">
 								<button class="btn btn-success" onclick="window.open('{{ route('portfolio','PUMP') }}');">Read More</button>

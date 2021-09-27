@@ -501,6 +501,7 @@ label {
 	color:inherit;
 	text-transform:uppercase;
 	font-weight:bold;
+    position:absolute;
 }
 .navbar-inverse .navbar-brand:hover,.navbar-inverse .navbar-brand:focus {
 	color:#000;
