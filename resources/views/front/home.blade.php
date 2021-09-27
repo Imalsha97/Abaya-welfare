@@ -593,7 +593,7 @@
                         <div class="col-md-4"style="padding-bottom:20px">
 							<div class="cnt">
 								<img src="assets/img/pipe.jpg" alt="" class="image-responsive">
-								<button class="btn btn-success" onclick="window.open('{{ route('portfolio','PUMP') }}');">Read More</button>
+								<button class="btn btn-success" onclick="window.open('{{ route('portfolio','INFRASTRUCTURE SERVICE') }}');">Read More</button>
 							</div>
 
 							<div class="description">
