@@ -89,11 +89,15 @@ http://www.templatemo.com/tm-501-neaty
                                 <h2 class="tm-blue-text tm-section-title tm-margin-b-30" style="padding: 30px">{{ $slug->name }}</h2></header>
                                 <div class="tm-gallery-container tm-gallery-1">
 
-                                 @foreach($portfolio as $port)
-                                    <div class="tm-img-container tm-img-container-1">
-                                        <a href="{{ asset('storage/'.$port->cover) }}"><img src="{{ asset('storage/'.$port->cover) }}" alt="Image" class="img-fluid tm-img-tn" style="width:350px;height:200px"></a>
+                                @foreach($portfolio as $port)
+
+                                    <div class="col-md-4" style="padding-bottom: 20px">
+                                        <div class="cnt">
+                                            <a href="{{ asset('storage/'.$port->cover) }}"><img src="{{ asset('storage/'.$port->cover) }}" alt="Image" class="image-responsive" style="width:350px;height:200px"></a>
+                                        </div>
                                     </div>
-                                @endforeach
+
+                            @endforeach
                                 </div>
                             </section>
 
@@ -106,7 +110,7 @@ http://www.templatemo.com/tm-501-neaty
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-md-3 item">
-                        <img src="{{ asset('assets/img1\logo.jpg') }}" alt="" style="width: 120px; height: 120px; margin-left: 30px;">
+                        <img src="{{ asset('assets/img1\logo.jpg') }}" alt="" style="padding-right: 50px;" style="width: 120px; height: 120px; margin-left: 30px;">
                     </div>
                     <div class="col-sm-6 col-md-3 item">
                         <h3>Contact us</h3>
