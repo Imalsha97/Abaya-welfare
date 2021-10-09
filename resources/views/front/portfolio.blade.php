@@ -30,7 +30,7 @@ http://www.templatemo.com/tm-501-neaty
           <![endif]-->
 </head>
     <body>
-    <div id="parallax" style="background-image: url({{ asset('assets/img/donate3x.png') }});">
+    <div id="parallax" style="background-image: url({{ asset('assets/img/nelum6.webp') }});">
 
 
 </div>
@@ -52,11 +52,11 @@ http://www.templatemo.com/tm-501-neaty
 		</button>
 		<!-- Your Logo -->
 
-		<div style="float: left; width: 50px; height: 50px; margin-top: 15px; margin-right: 20px;">
-			<img src="{{ asset('assets/img1/logo.jpg') }}" alt="" width="100%">
+		<div style="float: left; width: 50px; height: 70px; margin-top: 15px; margin-right: 20px;">
+			<img src="{{ asset('assets/img/logo.webp') }}" alt="" width="100%">
 		</div>
 
-		<a href="#hero" class="navbar-brand">ABHAYA WELFARE FOUNDATION</span></a>
+		<a href="#hero" class="navbar-brand"style="color:#cc2c6b">ABHAYA WELFARE FOUNDATION</span></a>
 	</div>
 	<!-- Start Navigation -->
 	<nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
@@ -64,7 +64,8 @@ http://www.templatemo.com/tm-501-neaty
 		<li><a href="{{ route('homepage') }}">Home</a></li>
 		<li><a href="{{ route('homepage') }}/#about">About</a></li>
 		<li><a href="{{ route('homepage') }}/#features">Services</a></li>
-        <li><a href="{{ route('homepage') }}/#gallery">Services</a></li>
+        <li><a href="{{ route('homepage') }}/#gallery">Gallery</a></li>
+
 		<li><a href="{{ route('homepage') }}/#donate">Donate</a></li>
 		<li><a href="{{ route('homepage') }}/#contactarea">Contact Us</a></li>
 	</ul>
@@ -82,16 +83,27 @@ http://www.templatemo.com/tm-501-neaty
 
     <div class="container">
             <div class="row">
-                <div class="tm-content-div">
+                <div class="tm-content-div" style="padding-top:40;padding-bottom:0;margin:0">
                     <!-- Welcome section -->
                         <section id="all" class="tm-section">
                             <header>
-                                <h2 class="tm-blue-text tm-section-title tm-margin-b-30" style="padding: 30px">{{ $slug->name }}</h2></header>
-                                <div class="tm-gallery-container tm-gallery-1">
+                                <div class="row">
+                                <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12"style="padding-bottom:0">
+                                 <h2 class="tm-blue-text tm-section-title tm-margin-b-100" style="padding-top:50px;margin-bottom:0;color:#cc2c6b;text-align:center">{{ $slug->name }}</h2>
+                                </div>
+                                </div>
+
+                                <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 text-center"style="padding:10px;padding-bottom:0;margin-bottom:0">
+                                <a href="https://drive.google.com/drive/folders/1OBKQ6DLRWZYco1Hze5CceagGTJhcIihi?usp=sharing" target="_blank"><button type="button" class="btn btn-outline-danger" style="color:#cc2c6b;align-items:center;">SEE ALL PHOTOS</button></a>
+                                </div>
+                                </div>
+
+                            </header>
+                                <div class="tm-gallery-container tm-gallery-1"style="padding-top:0;margin:0">
 
                                 @foreach($portfolio as $port)
 
-                                    <div class="col-md-3" style="padding-bottom: 20px">
+                                    <div class="col-md-3 col-sm-4" style="padding-bottom: 20px">
                                         <div class="cnt">
                                             <a href="{{ asset('storage/'.$port->cover) }}"><img src="{{ asset('storage/'.$port->cover) }}" alt="Image" class="image-responsive" style="width:300px;height:200px"></a>
                                         </div>
@@ -103,42 +115,48 @@ http://www.templatemo.com/tm-501-neaty
 
 
     </div></div></div>
-                            <!-- footer
+                            <!-- footer<img src="{{ asset('assets/img\logo.webp') }}" alt="">
 	=======================================================================================================  -->
-	<div class="footer-dark">
+    <div class="footer-dark">
         <footer>
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-md-3 item">
-                        <img src="{{ asset('assets/img1\logo.jpg') }}" alt="" style="padding-right: 50px;" style="width: 120px; height: 120px; margin-left: 30px;">
+                    <img src="{{ asset('assets/img\logo.webp') }}" alt="">
                     </div>
-                    <div class="col-sm-6 col-md-3 item">
+                    <div class="col-sm-6 col-md-3 item"style="padding-top:40px">
                         <h3>Contact us</h3>
                         <ul>
-                            <li>+94714049053 (Main Office)</li><br>
-                            <li>sipnara@gmail.com</li><br>
+                        <li><i class="fa fa-phone-square icon2" aria-hidden="true"></i> &nbsp;(+94) 714049053 (WhatsApp, IMO, Viber)</li><br>
+                            <li><i class="fa fa-envelope icon2" aria-hidden="true"></i> &nbsp;sipnara@gmail.com </li><br>
+                            <li>&nbsp;<i class="fa fa-map-marker icon2" aria-hidden="true"></i> &nbsp;
+                            No: 722/130/1, Abhayapura, Aturugiriya, Sri Lanka.
 
-                            <li>Abhaya Welfare Foundation</li><br>
-                            <li>No: 722/130/1,Abhayapura，Aturugiriya, Sri Lanka</li>
                         </ul>
                     </div>
-                    <div class="col-md-6 item text">
-                        <h3>Abhaya Welfare</h3>
-                        <p>“The way you get meaning into your life is to devote yourself to loving others, devote yourself to your community around you, and devote yourself to creating something that gives you purpose and meaning.” - Mitch Albom -</p>
+                    <div class="col-md-6 item text"style="padding-top:40px">
+                    <h3>Abhaya Welfare Foundation</h3>
+                        <p>“ The way you get meaning into your life is to devote yourself to loving others, devote yourself to your community around you, and devote yourself to creating something that gives you purpose and meaning.”  <br>- Mitch Albom -</p>
                     </div>
                     <section id="credits" class="text-center">
 						<span class="social wow zoomIn">
-						<a href="https://www.facebook.com/Abhaya-Welfare-Foundation-2404201109591950/"><i class="fa fa-facebook"></i></a>
+						<a href="https://www.facebook.com/Abhaya-Welfare-Foundation-107204148403119"><i class="fa fa-facebook"></i></a>
 
-
-						<a href="sipnara@gmail.com"><i class="fa fa-google-plus"></i></a>
+                        <a href="https://twitter.com/AbhayaWelfare"><i class="fa fa-twitter"></i></a>
+						<a href="https://www.instagram.com/welabhaya/"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/feed/?trk=onboarding-landing"><i class="fa fa-linkedin"></i></a>
+						<!-- <a href="#"><i class="fa fa-skype"></i></a> -->
+						<!-- <a href="#"><i class="fa fa-linkedin"></i></a>
+						<a href="#"><i class="fa fa-pinterest"></i></a>
+						<a href="#"><i class="fa fa-google-plus"></i></a> -->
 						</span>
 					</section>
                 </div>
-                <p class="copyright">Abhaya Welfare © 2018</p>
+                <p class="copyright">&copy; <script>document.write(new Date().getFullYear())</script> | Abhaya Welfare Foundation</p>
+                <p class="copyright" style="padding:0">Developed By | 10<sup>th</sup> Batch, Department of Computer Science, University Of Ruhuna </p>
             </div>
         </footer>
-</div
+    </div>
 
 
 
