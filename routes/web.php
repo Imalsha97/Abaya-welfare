@@ -23,7 +23,7 @@ Route::get('/portfolio/{id}', [FrontController::class, 'portfolio'])->name('port
 
 
 
-Route::post('/contact-form', [App\Http\Controllers\FrontController::class, 'storeContactForm'])->name('contact-form.store');
+Route::post('/contact-form', [FrontController::class, 'storeContactForm'])->name('contact-form.store');
 
 
 Route::redirect('/home', '/admin/portfolio');
