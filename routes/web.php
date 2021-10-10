@@ -21,7 +21,7 @@ Route::get('/', [FrontController::class, 'home'])->name('homepage');
 Route::get('/portfolio/{id}', [FrontController::class, 'portfolio'])->name('portfolio');
 
 
-Route::redirect('/home/portfolio', '/admin/portfolio');
+Route::redirect('/home', '/admin/portfolio');
 Auth::routes(['register' => false]);
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'middleware' => ['auth']], function () {
