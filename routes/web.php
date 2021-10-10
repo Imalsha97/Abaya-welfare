@@ -41,3 +41,9 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     Route::delete('portfolio/destroy/{id}',[PortfolioController::class, 'destroy'])->name('portfolio.destroy');
 
     });
+    Route::get('/link', function () {
+        Artisan::call('storage:link');
+    });
+    Route::get('/optimize', function () {
+        Artisan::call('optimize');
+    });
