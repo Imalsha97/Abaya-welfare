@@ -773,7 +773,10 @@ font-family: sans; color: white;" >
 							</fieldset>
 						</form>
                         @if(Session::has('success'))
-                        <div class="alert alert-success text-center"style="width:300px;padding-top:12px;">
+                        <div class="alert alert-success text-center"style="margin: auto;
+width: 30%;
+border: 3px solid black;
+padding: 10px;;">
                             {{ Session::get('success') }}
                             @php
                                 Session::forget('success');
