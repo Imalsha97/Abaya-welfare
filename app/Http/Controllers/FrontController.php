@@ -44,7 +44,7 @@ class FrontController extends Controller
             'email' => $input['email'],
             'phone' => $input['phone'],
             'subject' => $input['subject'],
-            'message' => $input['message'],
+            'message1' => $input['message'],
         ), function($message) use ($request){
             $message->from($request->email);
             $message->to('imalsha@abhayawelfare.com', 'Admin')->subject($request->get('subject'));

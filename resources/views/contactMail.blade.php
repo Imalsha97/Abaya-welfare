@@ -8,7 +8,7 @@ Name:  {{ $name }}<br>
 Email:  {{ $email }}<br>
 Phone:  {{ $phone }}<br>
 Subject:  {{ $subject }}<br>
-Message:  {{$message }}
+Message:  {{$message1 }}
    <br><br>
 
 Thanks
