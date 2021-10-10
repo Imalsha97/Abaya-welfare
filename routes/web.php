@@ -5,6 +5,7 @@ use App\Http\Controllers\Admin\{PCategoryController, PortfolioController};
 use App\Http\Controllers\FrontController;
 
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,6 +20,10 @@ use App\Http\Controllers\FrontController;
 //Route::get('/', 'HomeController@index');
 Route::get('/', [FrontController::class, 'home'])->name('homepage');
 Route::get('/portfolio/{id}', [FrontController::class, 'portfolio'])->name('portfolio');
+
+
+Route::get('/contact-form', [App\Http\Controllers\FrontController::class, 'contactForm'])->name('contact-form');
+Route::post('/contact-form', [App\Http\Controllers\FrontController::class, 'storeContactForm'])->name('contact-form.store');
 
 
 Route::redirect('/home', '/admin/portfolio');
