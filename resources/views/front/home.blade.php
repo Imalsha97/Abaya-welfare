@@ -751,7 +751,9 @@ font-family: sans; color: white;" >
 									<textarea name="message" class="form-control" required></textarea>
 								</div>
 								<div class="wow fadeIn animated" data-wow-delay="0.3" data-wow-duration="1.5s">
-									<input  type="submit"  value="Send"/>
+
+                                <button class="btn btn-success btn-submit">Save</button>
+
 								</div>
 							</fieldset>
 						</form>
