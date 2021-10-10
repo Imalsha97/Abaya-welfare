@@ -70,7 +70,7 @@
                 
                         <td>
                         
-                            <img src="{{ asset('storage/'.$portfolio->cover) }}" alt="" style="height: 100px; width: 200px">
+                            <img src="{{ asset('public/storage/'.$portfolio->cover) }}" alt="" style="height: 100px; width: 200px">
                         
                         </td> 
                         

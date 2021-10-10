@@ -105,7 +105,7 @@ http://www.templatemo.com/tm-501-neaty
 
                                     <div class="col-md-3 col-sm-4" style="padding-bottom: 20px">
                                         <div class="cnt">
-                                            <a href="{{ asset('storage/'.$port->cover) }}"><img src="{{ asset('storage/'.$port->cover) }}" alt="Image" class="image-responsive" style="width:300px;height:200px"></a>
+                                            <a href="{{ asset('public/storage/'.$port->cover) }}"><img src="{{ asset('public/storage/'.$port->cover) }}" alt="Image" class="image-responsive" style="width:300px;height:200px"></a>
                                         </div>
                                     </div>
 
