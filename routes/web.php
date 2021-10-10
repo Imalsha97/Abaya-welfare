@@ -22,7 +22,7 @@ Route::get('/', [FrontController::class, 'home'])->name('homepage');
 Route::get('/portfolio/{id}', [FrontController::class, 'portfolio'])->name('portfolio');
 
 
-Route::get('/contact-form', [App\Http\Controllers\FrontController::class, 'contactForm'])->name('contact-form');
+
 Route::post('/contact-form', [App\Http\Controllers\FrontController::class, 'storeContactForm'])->name('contact-form.store');
 
 
