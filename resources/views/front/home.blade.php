@@ -165,7 +165,7 @@ font-family: sans; color: white;" >
               <p class="card-text text-justify"style="color:black;font-family: 'Roboto', sans-serif;">
               <br>Serving humanity and all beings without boundaries understanding the
 												fragile nature of life. Helping human beings to reach their  full potentials with compassionate heart while
-                                                sharing and caring attitude for all beings and the environment</p>
+                                                sharing and caring attitude for all beings and the environment.</p>
 
             </div>
           </div>
@@ -750,7 +750,7 @@ font-family: sans; color: white;" >
 									<label for="message">Message<span class="required">*</span></label>
 									<textarea name="message" class="form-control" required></textarea>
 								</div>
-								<div class="wow fadeIn animated" data-wow-delay="0.3" data-wow-duration="1.5s">
+								<div class="wow fadeIn animated" data-wow-delay="0.3" style="padding-top:10px" data-wow-duration="1.5s">
 
                                 <button class="btn btn-success btn-submit">Save</button>
 
