@@ -47,7 +47,7 @@ class FrontController extends Controller
             'message' => $input['message'],
         ), function($message) use ($request){
             $message->from($request->email);
-            $message->to('imalsham092@gmail.com', 'Admin')->subject($request->get('subject'));
+            $message->to('imalsha@abhayawelfare.com', 'Admin')->subject($request->get('subject'));
         });
 
         return redirect()->back()->with(['success' => 'Contact Form Submit Successfully']);
