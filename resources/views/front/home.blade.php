@@ -731,34 +731,49 @@ font-family: sans; color: white;" >
 									<div class="col-md-4 wow fadeIn animated animated" data-wow-delay="0.1s" data-wow-duration="2s">
 										<label for="name">Name<span class="required">*</span></label>
 										<input type="text" class="form-control" name="name" size="30" value="" required/>
+                                        @if ($errors->has('name'))
+                                            <span class="text-danger">{{ $errors->first('name') }}</span>
+                                        @endif
 									</div>
                                     <div class="col-md-4 wow fadeIn animated" data-wow-delay="0.3s" data-wow-duration="2s">
 										<label for="number">Phone</label>
 										<input type="text" class="form-control" name="phone"  size="30" value=""/>
+                                        @if ($errors->has('phone'))
+                                            <span class="text-danger">{{ $errors->first('phone') }}</span>
+                                        @endif
 									</div>
 									<div class="col-md-4 wow fadeIn animated" data-wow-delay="0.3s" data-wow-duration="2s">
 										<label for="email">Email<span class="required">*</span></label>
 										<input type="text" class="form-control" name="email"  size="30" value="" required/>
+                                        @if ($errors->has('email'))
+                                            <span class="text-danger">{{ $errors->first('email') }}</span>
+                                        @endif
 									</div>
 
                                     <div class="col-md-4 wow fadeIn animated" data-wow-delay="0.3s" data-wow-duration="2s">
 										<label for="subject">Subject</label>
 										<input type="text" class="form-control" name="subject"  size="30" value=""/>
+                                        @if ($errors->has('subject'))
+                                            <span class="text-danger">{{ $errors->first('subject') }}</span>
+                                        @endif
 									</div>
 								</div>
 								<div class="wow fadeIn animated" data-wow-delay="0.3s" data-wow-duration="1.5" style="margin-top:15px;">
 									<label for="message">Message<span class="required">*</span></label>
 									<textarea name="message" class="form-control" required></textarea>
+                                    @if ($errors->has('message'))
+                                            <span class="text-danger">{{ $errors->first('message') }}</span>
+                                        @endif
 								</div>
 								<div class="wow fadeIn animated" data-wow-delay="0.3" style="padding-top:10px" data-wow-duration="1.5s">
 
-                                <button class="btn btn-success btn-submit">Save</button>
+                                <button class="btn btn-submit">Save</button>
 
 								</div>
 							</fieldset>
 						</form>
                         @if(Session::has('success'))
-                        <div class="alert alert-success">
+                        <div class="alert alert-success"style="width:25%">
                             {{ Session::get('success') }}
                             @php
                                 Session::forget('success');
